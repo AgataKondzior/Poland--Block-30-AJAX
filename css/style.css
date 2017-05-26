@@ -1,5 +1,16 @@
 * {box-sizing:border-box;}
-body {background-color: #CCC;}
+body {
+  background-color: rgb(165, 221, 62);
+  font-family: sans-serif;
+ }
+
+#contain-all {
+  width: 95%;
+  margin: 0 auto;
+}
+#form-container {
+  padding: 5px;
+}
 
 .bgimg {
     position:fixed;
@@ -18,27 +29,38 @@ body {background-color: #CCC;}
 
 .wikipedia-container {
     float:right;
-    width:290px;
-    padding:10px;
+    padding:20px;
     margin-right: 10px;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(241, 244, 66,0.7);
+    border-radius: 5px;
+    width: 35%;
+    min-height: 150px;
+}
+
+#wikipedia-links {
+  padding-left: 0;
 }
 
 .nytimes-container {
-    padding: 10px;
+    padding: 20px;
     margin-right:300px;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(241, 244, 66,0.7);
+    border-radius: 5px;
+    width: 60%;
+    min-height: 150px;
 }
 
 .article-list {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
-.article {
+.article, .article-list a {
     list-style-type: none;
-    padding:10px;
-    border-top: 1px solid #CCC;
+    text-decoration: none;
+    padding:0px;
+    color: #000;
 }
 .article:first-child {
     border-top:none;
