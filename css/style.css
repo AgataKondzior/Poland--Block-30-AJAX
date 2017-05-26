@@ -38,7 +38,7 @@ body {
 }
 
 #wikipedia-links {
-  padding-left: 0;
+  padding-left: 10px;
 }
 
 .nytimes-container {
@@ -52,15 +52,16 @@ body {
 
 .article-list {
     margin: 0;
-    padding: 0;
-    list-style: none;
+    padding-left: 10px;
 }
 
 .article, .article-list a {
-    list-style-type: none;
     text-decoration: none;
     padding:0px;
     color: #000;
+}
+.article-list a {
+  font-weight: bold;
 }
 .article:first-child {
     border-top:none;
